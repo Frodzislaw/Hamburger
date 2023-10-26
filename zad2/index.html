@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Formularz</title>
+</head>
+<body>
+    <form>
+        <h1>Employment Form</h1>
+        <section class="names">
+            <label class="text" for="first-name">
+                First name
+                <input id="first-name" type="text">
+            </label>
+            <label class="text" for="last-name">
+                Last name
+                <input id="last-name" type="text">
+            </label>
+        </section>
+
+        <label class="text" for="e-mail">
+            E-mail
+        </label>
+        <input id="e-mail" type="text">
+        <label class="text" for="phone">
+            Phone
+        </label>
+        <input id="phone" type="text">
+        <label class="text" for="data">
+            Data of birth
+        </label>
+        <input id="data" type="date">
+        <label class="text" for="gender">
+            Gender
+        </label>
+        <select id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <label class="text">
+            What are you looking for
+        </label>
+        <section class="job-buttons">
+            <input type="radio" id="software-enginer" value="SoftwareEngineer">
+            <label for="software-enginer">Software Engineer</label><br>
+            <input type="radio" id="ux-designer" value="UXDesigner">
+            <label for="ux-designer">Ux Designer</label><br>
+            <input type="radio" id="analytic-specialist" value="AnalyticSpecialist">
+            <label for="analytic-specialist">Analytic Specialist</label>
+            <input type="radio" id="project-manager" value="ProjectManager">
+            <label for="project-manager">Project Manager</label>
+        </section>
+        <label class="text">
+            What programing language do you know?
+        </label>
+        <section class="language-buttons">
+            <input type="checkbox" id="java" value="Java">
+            <label for="java">Java</label><br>
+            <input type="checkbox" id="javascript" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+            <input type="checkbox" id="c#" value="C#">
+            <label for="c#">C#</label>
+            <input type="checkbox" id="kotlin" value="Kotlin">
+            <label for="kotlin">Kotlin</label>
+            <input type="checkbox" id="python" value="Python">
+            <label for="python">Python</label>
+            <input type="checkbox" id="scala" value="Scala">
+            <label for="scala">Scala</label>
+        </section>
+        <label class="text" for="message">
+            Message
+        </label>
+        <input id="message" type="text">
+    </form>
+</body>
+</html>
